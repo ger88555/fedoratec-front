@@ -1,0 +1,77 @@
+/* Fonts */
+
+@font-face {
+  font-family: firacode;
+  src: url(../../assets/fonts/firacode/FiraCode-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: firacode;
+  src: url(../../assets/fonts/firacode/FiraCode-SemiBold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: firacode;
+  src: url(../../assets/fonts/firacode/FiraCode-Bold.ttf);
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: firacode;
+  src: url(../../assets/fonts/firacode/FiraCode-Light.ttf);
+  font-weight: lighter;
+}
+
+/* Main CSS */
+
+p {
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0.5em;
+}
+
+.App {
+  min-height: 100vh;
+  background-color: #c3c3c3;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: max(4vmin, 2em);
+  font-family: firacode;
+}
+
+.brand-logo {
+  height: max(20vmin, 8em);
+  pointer-events: none;
+}
+
+@media (max-height: 23em) {
+  .brand-logo {
+    order: 2
+  }
+}
+
+.announcement {
+  color: #04214d;
+  font-weight: bold;
+}
+
+.facebook-logo {
+  background-image: url(../../assets/images/facebook-icon.ico);
+  background-size: contain;
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+}
+
+.facebook-link {
+  color: #232021;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: smaller;
+}
