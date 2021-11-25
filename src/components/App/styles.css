@@ -45,9 +45,8 @@ p {
   font-family: firacode;
 }
 
-.brand-logo {
+.brand-logo, #canvas-container {
   height: max(20vmin, 8em);
-  pointer-events: none;
 }
 
 @media (max-height: 23em) {
