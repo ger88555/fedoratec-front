@@ -47,6 +47,7 @@ p {
 
 .brand-logo, #canvas-container {
   height: max(20vmin, 8em);
+  touch-action: pan-y;
 }
 
 @media (max-height: 23em) {
