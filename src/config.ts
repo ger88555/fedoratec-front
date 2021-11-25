@@ -1,0 +1,1 @@
+export const FACEBOOK_USER = process.env.REACT_APP_FACEBOOK_USERNAME || '';
